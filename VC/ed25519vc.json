@@ -1,6 +1,4 @@
 {
-    "format": "ldp_vc",
-    "credential": {
         "id": "did:rcw:a9732fa8-df38-400f-b65e-f0fe4d11ccb2",
         "type": [
             "VerifiableCredential",
@@ -43,4 +41,3 @@
             "policyExpiresOn": "2033-04-20T20:48:17.684Z"
         }
     }
-}
