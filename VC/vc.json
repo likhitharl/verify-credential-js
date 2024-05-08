@@ -1,20 +1,18 @@
 {
-    "format": "ldp_vc",
-    "credential": {
-        "id": "did:rcw:a9732fa8-df38-400f-b65e-f0fe4d11ccb2",
+        "id": "did:rcw:d206404d-139f-46e7-9529-addbbc742124",
         "type": [
             "VerifiableCredential",
             "LifeInsuranceCredential",
             "InsuranceCredential"
         ],
         "proof": {
-            "jws": "eyJhbGciOiJFZERTQSJ9.IntcInZjXCI6e1wiQGNvbnRleHRcIjpbXCJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MVwiLFwiaHR0cHM6Ly9ob2xhc2hjaGFuZC5naXRodWIuaW8vdGVzdF9wcm9qZWN0L2luc3VyYW5jZS1jb250ZXh0Lmpzb25cIix7XCJMaWZlSW5zdXJhbmNlQ3JlZGVudGlhbFwiOntcIkBpZFwiOlwiSW5zdXJhbmNlQ3JlZGVudGlhbFwifX1dLFwidHlwZVwiOltcIlZlcmlmaWFibGVDcmVkZW50aWFsXCIsXCJMaWZlSW5zdXJhbmNlQ3JlZGVudGlhbFwiLFwiSW5zdXJhbmNlQ3JlZGVudGlhbFwiXSxcImNyZWRlbnRpYWxTdWJqZWN0XCI6e1wiZG9iXCI6XCIxOTkzLTEyLTI0XCIsXCJnZW5kZXJcIjpcIk1hbGVcIixcIm1vYmlsZVwiOlwiMDEyMzQ1Njc4OVwiLFwiYmVuZWZpdHNcIjpbXCJDcml0aWNhbCBTdXJnZXJ5XCIsXCJGdWxsIGJvZHkgY2hlY2t1cFwiXSxcImZ1bGxOYW1lXCI6XCJSb2hpdCBWYXJtYVwiLFwiZW1haWxcIjpcInZhcm1hckBnbWFpbC5jb21cIixcInBvbGljeUlzc3VlZE9uXCI6XCIyMDIzLTA0LTIwVDIwOjQ4OjE3LjY4NFpcIixcInBvbGljeUV4cGlyZXNPblwiOlwiMjAzMy0wNC0yMFQyMDo0ODoxNy42ODRaXCIsXCJwb2xpY3lOYW1lXCI6XCJTdGFydCBJbnN1cmFuY2UgR29sZCBQcmVtaXVtXCIsXCJwb2xpY3lOdW1iZXJcIjpcIjEyMzQ1NjdcIn19LFwic3ViXCI6XCJkaWQ6andrOmV5SnJkSGtpT2lKU1UwRWlMQ0psSWpvaVFWRkJRaUlzSW5WelpTSTZJbk5wWnlJc0ltdHBaQ0k2SWxnd04xaG5SVFZCVlZob1IxRnFNR3hpYldKSFEwTlZjRGRJVm5Nd1RXaHJhR0pPTmpkT1YyaFFiVzhpTENKaGJHY2lPaUpTVXpJMU5pSXNJbTRpT2lKcVRHb3lVMFJEUXkxSWFVazFiVmx0YW14MFdHWlhlbEIxVVd4VGJUTlVUVjl3VG5NMFRtbzNNakZDVTFaTFpsaFRSVUZGZUdaRldtaGpabkZpVVd4WmMydDVTbWx3UmtWaWJub3RhVkI2Wm1SdWRIRkhPVGhUTVU1VVNtbGtlV2d5WVhsNFlrRjJVR2hOWlhoQ01HeDZOVE5zVUdGM1ZFZFdiMlZVVkhGd1ZrZElZa2hzYUZWRVJWUnZRMmhxTFROMWVYTlpSVjlWYzBwa1RXdEpPSFZYY2tZNGFIUm9PVEZ4VW5OWFNIUmhkMWhSZGpCWU1XbFNTR3g2Y25aVVNrcExabkpQUW1Gc2J6STJMVEpOZW1GUlJHSmtXRUpWUmtoNk1XbFdOMVZWTTA0eGIyVkNjRmd6U0ZaS1dGbExOMWxEZFRSM1lWTmpVamR5Y0hsRWVTMUJObXRLYlVWcGFscHhZMFZ3VVRoVVJtdFVSVk5IWkZVeVgyazVVMGRuYlRJd1oxcFZOek5PWkRWSlJXUXlSbkpUYjIxMWExbDNhRzFwT1RsMGRUaEhVbVUxYlZKWmJEbExlVEpNWkZWelRFeG1XWFY1UVhjaWZRPT1cIixcImp0aVwiOlwiZGlkOnJjdzphOTczMmZhOC1kZjM4LTQwMGYtYjY1ZS1mMGZlNGQxMWNjYjJcIixcIm5iZlwiOjE3MTUwNTgwMzIsXCJleHBcIjoxNzE3NjUwMDMyLFwiaXNzXCI6XCJkaWQ6dXBhaTpiYjg3Y2ZiZi0zZTdlLTQwZDYtYjRhMS05NWZkYmJhMjJkOTRcIn0i.0V8PAeJyeIpmJKZEV9dClF9yVd8sNcDW__iXZmhnPF4kNbhdDaaqVFGi8g-Q7_n4Foe3khRhIytEf7wwQhs2Cw",
-            "type": "JsonWebSignature2020",
-            "created": "2024-05-07T05:00:33.347Z",
+            "type": "Ed25519Signature2020",
+            "created": "2024-05-08T10:46:41Z",
+            "proofValue": "z5NU8KPDQx5byfV7nDEvAcN22GX8swtGqyarFZrDmsGKPxLJRAAV4Wf6BVHVpRi8UeizP8VRe57XfTRdN82bX3spp",
             "proofPurpose": "assertionMethod",
-            "verificationMethod": "did:upai:bb87cfbf-3e7e-40d6-b4a1-95fdbba22d94#key-0"
+            "verificationMethod": "did:web:likhitharl.github.io:vc:4e08c21f-c2ac-4c46-abf9-80c066d288dd#key-0"
         },
-        "issuer": "did:upai:bb87cfbf-3e7e-40d6-b4a1-95fdbba22d94",
+        "issuer": "did:web:likhitharl.github.io:vc:4e08c21f-c2ac-4c46-abf9-80c066d288dd",
         "@context": [
             "https://www.w3.org/2018/credentials/v1",
             "https://holashchand.github.io/test_project/insurance-context.json",
@@ -22,12 +20,13 @@
                 "LifeInsuranceCredential": {
                     "@id": "InsuranceCredential"
                 }
-            }
+            },
+            "https://w3id.org/security/suites/ed25519-2020/v1"
         ],
-        "issuanceDate": "2024-05-07T05:00:32.974Z",
-        "expirationDate": "2024-06-06T05:00:32.958Z",
+        "issuanceDate": "2024-05-08T10:46:40.913Z",
+        "expirationDate": "2024-06-07T10:46:40.882Z",
         "credentialSubject": {
-            "id": "did:jwk:eyJrdHkiOiJSU0EiLCJlIjoiQVFBQiIsInVzZSI6InNpZyIsImtpZCI6IlgwN1hnRTVBVVhoR1FqMGxibWJHQ0NVcDdIVnMwTWhraGJONjdOV2hQbW8iLCJhbGciOiJSUzI1NiIsIm4iOiJqTGoyU0RDQy1IaUk1bVltamx0WGZXelB1UWxTbTNUTV9wTnM0Tmo3MjFCU1ZLZlhTRUFFeGZFWmhjZnFiUWxZc2t5SmlwRkVibnotaVB6ZmRudHFHOThTMU5USmlkeWgyYXl4YkF2UGhNZXhCMGx6NTNsUGF3VEdWb2VUVHFwVkdIYkhsaFVERVRvQ2hqLTN1eXNZRV9Vc0pkTWtJOHVXckY4aHRoOTFxUnNXSHRhd1hRdjBYMWlSSGx6cnZUSkpLZnJPQmFsbzI2LTJNemFRRGJkWEJVRkh6MWlWN1VVM04xb2VCcFgzSFZKWFlLN1lDdTR3YVNjUjdycHlEeS1BNmtKbUVpalpxY0VwUThURmtURVNHZFUyX2k5U0dnbTIwZ1pVNzNOZDVJRWQyRnJTb211a1l3aG1pOTl0dThHUmU1bVJZbDlLeTJMZFVzTExmWXV5QXcifQ==",
+            "id": "did:jwk:eyJrdHkiOiJFQyIsInVzZSI6InNpZyIsImNydiI6IlAtMjU2Iiwia2lkIjoiQy0tWkxFWHdxaHFYazFVZ0s5enc4aDlvRVpWNzRZMHR1Zmp1LXZmRjVUayIsIngiOiJPMHFwTjhWUHczYWp5cVJVX0ZZb1lGNFdILU5UVFpySXQwMllwMHNHSmZNIiwieSI6InFhRlhxNmVfMzhkWXEyanJzVlNvTmZVY0xIRkdsbWJCSmNJeV84aHh2dmMiLCJhbGciOiJFUzI1NiJ9",
             "dob": "1993-12-24",
             "email": "varmar@gmail.com",
             "gender": "Male",
@@ -43,4 +42,3 @@
             "policyExpiresOn": "2033-04-20T20:48:17.684Z"
         }
     }
-}
