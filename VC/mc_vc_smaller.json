@@ -1,0 +1,44 @@
+{
+        "id": "did:rcw:18c7f4d3-7e45-404a-8e6d-2bf5b1b7f705",
+        "type": [
+            "VerifiableCredential",
+            "LifeInsuranceCredential",
+            "InsuranceCredential"
+        ],
+        "proof": {
+            "type": "Ed25519Signature2020",
+            "created": "2024-05-13T08:07:36Z",
+            "proofValue": "z5hLxR3AE4H7iJkLzDeqxpEYGSk8M75d7DSW7zUNynB8TgTDmAB37mCpK42gNAKKbhvg8exKMyu2moN9F9R32immj",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:likhitharl.github.io:vc:a3aca359-0b0f-4f32-abba-29ec27937804#key-0"
+        },
+        "issuer": "did:web:likhitharl.github.io:vc:a3aca359-0b0f-4f32-abba-29ec27937804",
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://holashchand.github.io/test_project/insurance-context.json",
+            {
+                "LifeInsuranceCredential": {
+                    "@id": "InsuranceCredential"
+                }
+            },
+            "https://w3id.org/security/suites/ed25519-2020/v1"
+        ],
+        "issuanceDate": "2024-05-13T08:07:35.513Z",
+        "expirationDate": "2024-06-12T08:07:35.455Z",
+        "credentialSubject": {
+            "id": "did:jwk:eyJrdHkiOiJFQyIsInVzZSI6InNpZyIsImNydiI6IlAtMjU2Iiwia2lkIjoiamV2Z1NZOWp4Wkpob3JoUzFwaEgxMEJnLVBSUmlXbnEtTXpzSFZ3ZWp3OCIsIngiOiJfYlBuOWdvVkxPZzcxUHN5X1ZpWlFjZlI2aFlMc2VtaTRlRlBTTlh6b3BrIiwieSI6IlFhQU5mMVd5bF9ISmZQN2VxM3p3SkZjWE94enJ3T05fYzZsTTVuMnFUcXMiLCJhbGciOiJFUzI1NiJ9",
+            "dob": "1993-12-24",
+            "email": "abhishek@gmail.com",
+            "gender": "Male",
+            "mobile": "0123456789",
+            "benefits": [
+                "Critical Surgery",
+                "Full body checkup"
+            ],
+            "fullName": "Abhishek Gangwar",
+            "policyName": "Start Insurance Gold Premium",
+            "policyNumber": "1234567",
+            "policyIssuedOn": "2023-04-20T20:48:17.684Z",
+            "policyExpiresOn": "2033-04-20T20:48:17.684Z"
+        }
+    }
