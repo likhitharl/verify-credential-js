@@ -1,5 +1,5 @@
 {
-        "id": "did:rcw:e474f3ed-38f6-4c7c-923d-a91b1fd64bf4",
+        "id": "did:rcw:c4f9b208-07a4-402d-a6e1-6d3c69818f93",
         "type": [
             "VerifiableCredential",
             "LifeInsuranceCredential",
@@ -7,12 +7,12 @@
         ],
         "proof": {
             "type": "Ed25519Signature2020",
-            "created": "2024-05-24T05:03:25Z",
-            "proofValue": "z2fkF1gw7pqkuW3iybwGrfBPkLRTPyjJrmd7Tq5zTQZ67KscCztPZzE4UzUGCDq3AddDpWYxnfeLumgD5rnJ59qnx",
+            "created": "2024-05-27T09:25:21Z",
+            "proofValue": "z2DniaH9UzLFwrimpZNj2Y4oLoyJbTckf9B46q1cvJVmroL8KUgnAw7pwRX7Mu7VMAKkmpr5UxVCEcztVtxfMrAXL",
             "proofPurpose": "assertionMethod",
-            "verificationMethod": "did:web:likhitharl.github.io:vc:44b4c150-aafc-48d9-bfa2-7176a3c4f850#key-0"
+            "verificationMethod": "did:web:likhitharl.github.io:vc:0a4755f5-708e-4813-8197-2fd4bb9f4623#key-0"
         },
-        "issuer": "did:web:likhitharl.github.io:vc:44b4c150-aafc-48d9-bfa2-7176a3c4f850",
+        "issuer": "did:web:likhitharl.github.io:vc:0a4755f5-708e-4813-8197-2fd4bb9f4623",
         "@context": [
             "https://www.w3.org/2018/credentials/v1",
             "https://holashchand.github.io/test_project/insurance-context.json",
@@ -23,10 +23,10 @@
             },
             "https://w3id.org/security/suites/ed25519-2020/v1"
         ],
-        "issuanceDate": "2024-05-24T05:03:25.292Z",
-        "expirationDate": "2024-06-23T05:03:25.288Z",
+        "issuanceDate": "2024-05-27T09:25:21.682Z",
+        "expirationDate": "2024-06-26T09:25:21.676Z",
         "credentialSubject": {
-            "id": "did:jwk:eyJrdHkiOiJFQyIsInVzZSI6InNpZyIsImNydiI6IlAtMjU2Iiwia2lkIjoiNHlsNkFYOEQteVhTeFBfRzZGd0xRRU5WRFo3dmVZRXVRbkNmUDZkQjZTdyIsIngiOiJlV3I1SHVTU2NBT2M3OWJtaS1HUVhyUFRzSDhSVk40RjJwbHZXSDE5N3drIiwieSI6IjlDRkw1YmlRamRXRk5hOHV1UV8wRWs2QzdvR3ctT0JpMkNkNXhCMVNLV3MiLCJhbGciOiJFUzI1NiJ9",
+            "id": "did:jwk:eyJrdHkiOiJFQyIsInVzZSI6InNpZyIsImNydiI6IlAtMjU2Iiwia2lkIjoiejZIaHhMbFVQcG1IQ0F3VV94Rl9vVFh4N01hVWpTS0NqN2hCMXhMbElscyIsIngiOiJmWENqVWV5eFlwWXBFYUU1ZHlaYXNjbnRFZEJPNEJXNThSUG1XQmdMUm1NIiwieSI6IjBaMkx3bUtIWnhSbkVoa2liNy10SjJwWHJka2g1aVhENFBvaDg5dEZwNTAiLCJhbGciOiJFUzI1NiJ9",
             "dob": "1993-12-24",
             "email": "varmar@gmail.com",
             "gender": "Male",
