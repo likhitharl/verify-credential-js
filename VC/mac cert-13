@@ -1,0 +1,44 @@
+{
+        "id": "did:rcw:0cf51979-1d05-4d77-a4a4-d8d9caddd342",
+        "type": [
+            "VerifiableCredential",
+            "LifeInsuranceCredential",
+            "InsuranceCredential"
+        ],
+        "proof": {
+            "type": "Ed25519Signature2020",
+            "created": "2024-06-04T12:14:52Z",
+            "proofValue": "zNJMMczBcUCzSfncTUHB2FtLJ5YhDhk12heuCUHPyimxpundafNTvVM3TiUFqPo2xmzt3i6aqNTzmpLmD2GhyhLv",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:likhitharl.github.io:vc:34b0a17d-0e03-469e-9d86-3f9c4f6b851f#key-0"
+        },
+        "issuer": "did:web:likhitharl.github.io:vc:34b0a17d-0e03-469e-9d86-3f9c4f6b851f",
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://holashchand.github.io/test_project/insurance-context.json",
+            {
+                "LifeInsuranceCredential": {
+                    "@id": "InsuranceCredential"
+                }
+            },
+            "https://w3id.org/security/suites/ed25519-2020/v1"
+        ],
+        "issuanceDate": "2024-06-04T12:14:52.059Z",
+        "expirationDate": "2024-07-04T12:14:51.898Z",
+        "credentialSubject": {
+            "id": "did:jwk:eyJrdHkiOiJSU0EiLCJlIjoiQVFBQiIsInVzZSI6InNpZyIsImtpZCI6Ing5SHRVNjV4Y1NsZGhoQmRXSkp3QXcwQUdnRmRnWjdXVlRSa2MwLUtlbUEiLCJhbGciOiJSUzI1NiIsIm4iOiJ2Z29MTWRkdk1WSkNfMldHUlI0NmExaWp3a2VuN2ZNVXF5REdDaHVHbmNIR2tsQ252QUxxQTJoWVVDVXo5R01vb2o3aGVCSnZVVzlDQkU1em1kamF5d29KRjBIZHZnZmlrUGdmTHZRbnN4YVhWbEw4TFRfaEROVTVZVy16VTQtN0d6akNtTUs2ZlpqcDVocWplYmJ4VmhkckdjczRFN09Kdk8tc3BYdWxPUnQ0M1lySDFxMTh0Tm9aOXEyWUttb0ctc2hrREd4bGYwQzdGVFFYLU9EMmhuUG51MEtNMXY3UzRmTW90UUhKSDdlUnp0RU96dkpxcTI3R1ZBRkFYQkdIb2VnTzRrTmVJdC1XdzlBdTlDQks2VldXQklDSG9pajhJcUoxTWJ0dmZuRW0zc0c1VS1lUTFTdHNZR19qUm1CUVh6OF9qMHF4ZUJ6QUtmVnVLUEhqa1EifQ==",
+            "dob": "1993-12-24",
+            "email": "abhishek@gmail.com",
+            "gender": "Male",
+            "mobile": "0123456789",
+            "benefits": [
+                "Critical Surgery",
+                "Full body checkup"
+            ],
+            "fullName": "Abhishek Gangwar",
+            "policyName": "Start Insurance Gold Premium",
+            "policyNumber": "1234567",
+            "policyIssuedOn": "2023-04-20T20:48:17.684Z",
+            "policyExpiresOn": "2033-04-20T20:48:17.684Z"
+        }
+    }
