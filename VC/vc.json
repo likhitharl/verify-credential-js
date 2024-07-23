@@ -1,44 +1,38 @@
 {
-        "id": "did:rcw:55fdcd14-d7bc-438d-84df-c8354fde4c26",
+        "id": "did:rcw:ba9b641c-b5bb-403b-990b-b44c88ed3a91",
         "type": [
             "VerifiableCredential",
-            "LifeInsuranceCredential",
             "InsuranceCredential"
         ],
         "proof": {
             "type": "Ed25519Signature2020",
-            "created": "2024-06-05T05:44:49Z",
-            "proofValue": "zjyuH8i9XKJu7KWnXpRD2QofaFZC2aNKiVtjnvUcNDZZ7zwjz8MGz34U3XkwJ8xkMLtrBF7vD8DeSmph24tVbD6E",
+            "created": "2024-07-23T04:51:28Z",
+            "proofValue": "z33bfSfPHkS6q7qoP5bXnjFoj2Bod3c7kcUNG6ithHYye8igdKANT3xfGR6NjS2QfEhZTQtKkYuVSNjDBiNYds6hN",
             "proofPurpose": "assertionMethod",
-            "verificationMethod": "did:web:likhitharl.github.io:vc:b04feec0-bcc7-4248-b399-4f0a3888059e#key-0"
+            "verificationMethod": "did:web:registry.dev1.mosip.net:identity-service:3e432fe5-bdab-4717-8eaa-a80d79823e58#key-0"
         },
-        "issuer": "did:web:likhitharl.github.io:vc:b04feec0-bcc7-4248-b399-4f0a3888059e",
+        "issuer": "did:web:registry.dev1.mosip.net:identity-service:3e432fe5-bdab-4717-8eaa-a80d79823e58",
         "@context": [
             "https://www.w3.org/2018/credentials/v1",
             "https://holashchand.github.io/test_project/insurance-context.json",
-            {
-                "LifeInsuranceCredential": {
-                    "@id": "InsuranceCredential"
-                }
-            },
             "https://w3id.org/security/suites/ed25519-2020/v1"
         ],
-        "issuanceDate": "2024-06-05T05:44:49.227Z",
-        "expirationDate": "2024-07-05T05:44:49.083Z",
+        "issuanceDate": "2024-07-23T04:51:27.752Z",
+        "expirationDate": "2024-08-22T04:51:27.705Z",
         "credentialSubject": {
-            "id": "did:jwk:eyJrdHkiOiJSU0EiLCJlIjoiQVFBQiIsInVzZSI6InNpZyIsImtpZCI6ImJlZnVfM1F0WDBPcWpJSndvRmZDSXRaZ1htUzY5MXZkM3FGY0I2TFhOMHMiLCJhbGciOiJSUzI1NiIsIm4iOiJyeW9qdXU3NDZ2NEtrT3ZxZVB4T3ZhTHQxXzliWVNTakQ3dFNmdFRUUU5RS1V0cDhyQllienp2WU1DeUJZZmdYaWR3OXZjZWFYb3hXRXItb3hNc29ZT1Z0UDdkdlhTQnVfUUlxZXRET2RMTjhNSlFwVWZaMUp0WklxSVhCYTNIcy1TcWZKUklxSWhMcEQwMkQwWjdxa0JwNHpoWU04dTFOMHNyekluSlJVbmppTWEtQ0djc3NZQjdFd3dZanhwak9ad005RFNXdkoyVnNEZDRkN2QtbDY0N0s0QmZIREdyNWZYajZIbjVoejc0VTh5aDhydGFudW53YmNkRVBxbC16R0x4eDIycTJ1Q002d04zeGNZTVpEWUJjT3Z0enZ2Rll2RjNaX2VjNll3bWxValhpVk11SHY2dDctWFMwTlpaQ1BIZVBFZHE3ZE1YQWkybXlTcmpuaHcifQ==",
-            "dob": "1993-12-24",
-            "email": "abhishek@gmail.com",
+            "id": "did:jwk:eyJrdHkiOiJSU0EiLCJlIjoiQVFBQiIsInVzZSI6InNpZyIsImtpZCI6Im52dUlsUXBTV0pjUlhVc3lnUGRmMWJkVGFJeVFJd3MyRlVoQkFnbHl5NnciLCJhbGciOiJQUzI1NiIsIm4iOiJvd3NyQ3JwbFZTOTEzV2ZTN19PWW50ZUtNeFdmRjJ6cDJzMHpBZTZVU2JaRG5SZzRWQUw1aGFxYVFXN21ZRTUybjBzYlpGZmdjVjROSmVnWC1KTzhIM0FwOW5kLXNhc2FIVjdZN1VWOW5Vekg5UmNQcUlDazRnblhsUFJFck5ZQmhsbDBIVldidGdYYWFyblBseFlCN3NMLUtBZDhQZTNQSGNKR3d4VnZmcHY5XzhnZUZzendJX0c4VWpMR3pXM1U3dkdkRkRFTFEwbHhJZngyWV80blp6eHV1MkdzRllxbmlBRWlvdEJCOEJQVGlSOFlFd3ZsTlBYOTN4bHYtQWJSU05oeTFNMHF3MXRLZzJPOUFoRWxkbGhlUnZIeEgxNUd2VHJXWjdXdldFY0Z4dnBuQXJMZThJTThCcTBfc2xXbU4wS254Yld3bkxGeGZ6Yl93c01nOFEifQ==",
+            "dob": "1983-12-24",
+            "email": "varmar@gmail.com",
             "gender": "Male",
             "mobile": "0123456789",
             "benefits": [
                 "Critical Surgery",
                 "Full body checkup"
             ],
-            "fullName": "Abhishek Gangwar",
+            "fullName": "rohit",
             "policyName": "Start Insurance Gold Premium",
             "policyNumber": "1234567",
-            "policyIssuedOn": "2023-04-20T20:48:17.684Z",
-            "policyExpiresOn": "2033-04-20T20:48:17.684Z"
+            "policyIssuedOn": "2023-04-20",
+            "policyExpiresOn": "2033-04-20"
         }
     }
