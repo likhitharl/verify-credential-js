@@ -1,0 +1,44 @@
+{
+        "id": "did:rcw:62b48a8f-686d-40d4-ab8e-f058e70a7583",
+        "type": [
+            "VerifiableCredential",
+            "LifeInsuranceCredential",
+            "InsuranceCredential"
+        ],
+        "proof": {
+            "type": "Ed25519Signature2020",
+            "created": "2024-08-08T07:04:16Z",
+            "proofValue": "zYXtrhyZD2dfUvaBUtJrWq6HUwVUxZxLwNHSR4X2zfXEHGWMDaJzKZzcYaAamJignsiSQq8dXU2HMKSmRMmJsgcx",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:likhitharl.github.io:vc:a956d176-0748-4c2b-9cb1-29a315a04071#key-0"
+        },
+        "issuer": "did:web:likhitharl.github.io:vc:a956d176-0748-4c2b-9cb1-29a315a04071",
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://holashchand.github.io/test_project/insurance-context.json",
+            {
+                "LifeInsuranceCredential": {
+                    "@id": "InsuranceCredential"
+                }
+            },
+            "https://w3id.org/security/suites/ed25519-2020/v1"
+        ],
+        "issuanceDate": "2024-08-08T07:04:15.440Z",
+        "expirationDate": "2024-09-07T07:04:15.206Z",
+        "credentialSubject": {
+            "id": "did:jwk:eyJrdHkiOiJSU0EiLCJlIjoiQVFBQiIsInVzZSI6InNpZyIsImtpZCI6Il9XUUxxeEFCMFREdnk3eGM5UGlmS1UwUXhJVGp2Z2hZZ3dvSkdENUdLbXMiLCJhbGciOiJSUzI1NiIsIm4iOiJqWGJvSjRsS2syRzJlSlZ4V2liS0pCT3d0Yy1zRTdnVHpCVWlEQWRxZm9BVjRCWlVTc3QxNVdaV3Z1WW50Q1FVbFpKYnFnc3hVVEtreFpyQWZ1Q2tmTHdybzJLZDFLSHMwaXdpWGs1MnVVZVFKYkdXT1JSUlZLWkhUaWcyTTAyOTFmNG00T09vdTJXaGlsalZKeUFNcjlhT2FqQmhwYTMxeFJWMzdtY2FITmV2Q3BGX2tEU1RlamtuYVpWX2p4N2hrRnFtMktCbGVjX1g0SGJhUEVTQ21EWWV5UkR3dDRkTHBIeU51cDFrTWN1czVST3loVk1ReHB4cE0yWERuX0lRVmxEZ1VRNXBQVE9hdmdLR2VGYmg5ZjF1TVhzbTc2YjhzVlQwSEJ6ZlZLSXQ3eUMySGQzVDdTRXFGQlgwa0JnSlR6QUYxNVFoUFRmd1p2UGh0cE5KU3cifQ==",
+            "dob": "1989-10-21",
+            "email": "vihan@gmail.com",
+            "gender": "Male",
+            "mobile": "9876753456",
+            "benefits": [
+                "Critical Surgery",
+                "Full body checkup"
+            ],
+            "fullName": "vihanj",
+            "policyName": "Start Insurance Gold Premium",
+            "policyNumber": "87976567",
+            "policyIssuedOn": "2023-04-20T20:48:17.684Z",
+            "policyExpiresOn": "2033-04-20T20:48:17.684Z"
+        }
+    }
