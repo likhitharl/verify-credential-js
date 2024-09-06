@@ -48,7 +48,7 @@
     "jws": "eyJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJraWQiOiJRVmRMTW9uWmNqM0doTUxjbmhuZEdmT0J2RVdHZHg0LU5qazRKRGNxb19NIiwiYWxnIjoiUFMyNTYifQ..lhM2BzYapSIWNI8oHhYKx4na7lOEO-TSzJOndP0PowTGbT1op2AOWdxnozidPckdBIFAPaIAbS4pmVj-jW-QeqiWqERbcHSNePLc-5ykz0VA-q6rFNJs-PJVldZlQMl1Ww_nNpRbTwTirGum3f0tp7MhXcqV_66tQQrFr81odP-rAntPdg-BUpsZ0tXbWUxczmmWshRIw5a67ZrslxVXx0umtE_rx3lVIStSXhUXdbwGOkZPNwAj4AdFTlSbYlRrrazWg1sAqzfT1EE8Kdj7D16TlEyKy011srtMqu2n-sRJBg69mZlcsqlDF6_sIspILMZnKueQvxZqeBOMRmQtpw",
     "proofPurpose": "assertionMethod",
     "type": "RsaSignature2018",
-    "verificationMethod": "null"
+    "verificationMethod": "https://null.com"
   },
   "type": ["VerifiableCredential", "MOSIPVerifiableCredential"]
 }
