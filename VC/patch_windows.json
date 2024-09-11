@@ -1,0 +1,38 @@
+{
+        "id": "did:rcw:e75cdd4b-8c42-424a-a432-e2fbd276efe0",
+        "type": [
+            "VerifiableCredential",
+            "InsuranceCredential"
+        ],
+        "proof": {
+            "type": "Ed25519Signature2020",
+            "created": "2024-09-11T10:55:24Z",
+            "proofValue": "z2vYuSx1RwX4DFAJVhFKDZriawwjQsDbXn5iVmbzkf6iH9VfBxpkwp5yhQe94p99JngQhfjkjQEyvW1mSnENH8LiW",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:api.dev1.mosip.net:identity-service:8ebda1d0-665b-4bb7-abc7-d4bf56b6ee09#key-0"
+        },
+        "issuer": "did:web:api.dev1.mosip.net:identity-service:8ebda1d0-665b-4bb7-abc7-d4bf56b6ee09",
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://holashchand.github.io/test_project/insurance-context.json",
+            "https://w3id.org/security/suites/ed25519-2020/v1"
+        ],
+        "issuanceDate": "2024-09-11T10:55:23.999Z",
+        "expirationDate": "2024-10-11T10:55:23.951Z",
+        "credentialSubject": {
+            "id": "did:jwk:eyJrdHkiOiJSU0EiLCJlIjoiQVFBQiIsInVzZSI6InNpZyIsImtpZCI6IkNwUG1mMEtBRE1COTRtN0ZBSHlwelVWLThtNUZ4eU85STBpeDR0SnFkWTAiLCJhbGciOiJSUzI1NiIsIm4iOiJoYTQ3S3Z1SlZKRUpFa2Z3RnhDTjBBdnJ1MEs3ZVJQbHctaGVfY2RVTEpHd2dQSTE5NWNBOUlTbldoVXYyNWQtQWJkUjNwV1NlSTREeXhEa2V3aUtYaWxISnY3aGxUejhZdTNQWHpqdk4zRUVvZzBuTC1qZ3RKN0ZKMmlIeTNEZjlQYzNLSml2SURqMk9LNG9kd2tyTUpIcFJWMkxfQjZOV3UtUFh1RWNqWV9GTzRWVlJ3MXpxbjdfMDdYaFoxRjVBX3Z6aDJyM2Y4WkVGZGFRcEVhV2ROV2dPQ2JBT0Z6TFlIdzQ0d0lTX1lEUW5CWmw0QmlsUFJoMmp1LTRpWGNYazhpbTJpNUlqVWVheFdmX1dZVlY3TkV3VWx4eGdwMEZSUG84cVByLVBlSUVKdlVlTmVIQ2s4b2xLTHdobzlKQ1N4U05pbUp5OW02OHl5Uzc1Vmlkd1EifQ==",
+            "dob": "1988-12-21",
+            "email": "baldevj@gmail.com",
+            "gender": "Female",
+            "mobile": "998877665",
+            "benefits": [
+                "Critical Surgery",
+                "Full body checkup"
+            ],
+            "fullName": "Baldev",
+            "policyName": "Start Insurance Gold Premium",
+            "policyNumber": "948108765",
+            "policyIssuedOn": "2024-09-12",
+            "policyExpiresOn": "2033-04-20"
+        }
+    }
