@@ -1,0 +1,53 @@
+{
+        "id": "did:agriculture-department:8764d344-8812-44d7-9b9f-1fce8a23d89f",
+        "type": [
+            "VerifiableCredential",
+            "FarmerCredential"
+        ],
+        "proof": {
+            "type": "Ed25519Signature2020",
+            "created": "2024-09-17T12:22:39Z",
+            "proofValue": "z3RrSYHF8ZQs7Dgbr4SPtbrZ4oWYncD4MUtKCe5ToDBLEFDiGmrDSRnkmAn9RSt4CZatRny7iKHh4mCQCa2Z65nv6",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:api.dev1.mosip.net:identity-service:8ebda1d0-665b-4bb7-abc7-d4bf56b6ee09#key-0"
+        },
+        "issuer": "did:web:api.dev1.mosip.net:identity-service:8ebda1d0-665b-4bb7-abc7-d4bf56b6ee09",
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://schema.org/",
+            "https://w3id.org/security/suites/ed25519-2020/v1"
+        ],
+        "issuanceDate": "2023-05-15T10:30:00Z",
+        "expirationDate": "2024-05-15T10:30:00Z",
+        "credentialSubject": {
+            "id": "did:example:farmer123456789",
+            "hero": "https://google.com",
+            "name": "John Doe",
+            "works": "Full-time",
+            "address": {
+                "postalCode": "12345",
+                "addressRegion": "Rural State",
+                "streetAddress": "123 Farm Road",
+                "addressCountry": "United States",
+                "addressLocality": "Farmville"
+            },
+            "landArea": 50.5,
+            "dateOfBirth": "1980-05-15",
+            "phoneNumber": "989898999",
+            "typeOfHouse": "Farmhouse",
+            "farmingTypes": [
+                "Organic",
+                "Mixed"
+            ],
+            "knowsLanguage": [
+                "English",
+                "Spanish"
+            ],
+            "maritalStatus": "Married",
+            "primaryCropType": "Wheat",
+            "highestEducation": "Bachelor's Degree",
+            "landOwnershipType": "Self-owned",
+            "secondaryCropType": "Vegetables",
+            "numberOfDependents": 3
+        }
+    }
