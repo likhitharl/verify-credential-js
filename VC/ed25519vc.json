@@ -1,44 +1,43 @@
 {
-        "id": "did:rcw:289651e2-7806-4699-b30f-f74d65c52c13",
+        "issuanceDate": "2024-12-06T09:37:23.598Z",
+        "credentialSubject": {
+            "AreaTotal": 567.8901,
+            "Latitude": "26°18'11.22\" S",
+            "AreaDeReservaLegal": 80.3,
+            "NomeDaPropriedadeRural": "Sítio Águas Claras",
+            "Longitude": "48°50'44.55\" W",
+            "AreaDePreservacaoPermanente": 50.2,
+            "AreaDeServidaoAdministrativa": 15.4567,
+            "CodigoDeProtocolo": "SC-9970556-3H9J.M1N3.OJ28.J394.JK05.M25G.9H16.NLO8",
+            "DataDeRegistro": "2025-05-30T10:33:44Z",
+            "Municipio": "Joinville, State: Santa Catarina",
+            "AreaTotalDeclarada": 567.8901,
+            "AreaDeUsoRestrito": 30.1,
+            "NumeroDeRegistroCAR": "SC-9970556-H3N5.J708.5392.2791.JK1J.1789.72K2.N3O6",
+            "AreaLiquida": 550,
+            "RemanescenteDeVegetacaoNativa": 120.5,
+            "CPF": "345.678.901-47",
+            "ModulosFiscais": 8.1234,
+            "AreaConsolidada": 450.6,
+            "Nome": "Fernanda Oliveira Lima"
+        },
+        "id": "https://mosip.io/credential/abcde6c5-4c75-4c7c-9ce8-4ba997a9299a",
         "type": [
             "VerifiableCredential",
-            "LifeInsuranceCredential",
-            "InsuranceCredential"
+            "RegistrationReceiptCredential"
         ],
-        "proof": {
-            "type": "Ed25519Signature2020",
-            "created": "2024-07-22T05:12:10Z",
-            "proofValue": "z28e8BHdFzz6n2ArtzGhoSHGrRqbYFFF7WjxtqmfHfFSoxXU9ySnCYP9turrk3Ra89AQ6wnToyNbw5XQBdS8TQeXs",
-            "proofPurpose": "assertionMethod",
-            "verificationMethod": "did:web:likhitharl.github.io:vc:b366ff07-a208-4a23-a923-89473f4dd7b9#key-0"
-        },
-        "issuer": "did:web:likhitharl.github.io:vc:b366ff07-a208-4a23-a923-89473f4dd7b9",
         "@context": [
             "https://www.w3.org/2018/credentials/v1",
-            "https://holashchand.github.io/test_project/insurance-context.json",
-            {
-                "LifeInsuranceCredential": {
-                    "@id": "InsuranceCredential"
-                }
-            },
+            "https://piyush7034.github.io/my-files/registration-receipt.json",
             "https://w3id.org/security/suites/ed25519-2020/v1"
         ],
-        "issuanceDate": "2024-07-22T05:12:10.767Z",
-        "expirationDate": "2024-08-21T05:12:10.728Z",
-        "credentialSubject": {
-            "id": "did:jwk:eyJrdHkiOiJSU0EiLCJlIjoiQVFBQiIsInVzZSI6InNpZyIsImtpZCI6IlpGWWhOY0JVVlU0TE9RNy14eF9Udnc0dmRGSjFFc0RKN25lSDBheGFTUmMiLCJhbGciOiJSUzI1NiIsIm4iOiJwLW1SbEdNUW9SRGdrY25lNFVJRnd0VU02QzRfcWpqdlAwUUxDUlhkbjNyZk5RS00wRjBBRUlPeWduelh2MlFBWUIxT0twQ0VSQklrZnpWdkpPMm9BWUIyVEthbWFQSlBMRUtuTjlQN3VSNWo3UUs2Mlp5MUFudzVZVnNmOTV6YjZodkdBZm00b0d2Qkh0NVdFdHcxYTRNdnZPNVI0UXdrdWZQVEhsN0h5Rks4Wk5tRE5zb043S3M5ME1uQ0hhZkgtMFFmS0RRX0lLUTRMNzl3TlVNNi1pWHVNNDFRa0lsSHpaOXRaUGdYNXRaemREX19wbk5FOVVKb2phbEFHOUI1RjJKY2lYMXBGSXpnNTQyTW5LU19JaW5BNWp1QnN4TG1YMktsZC1DS0l4UmRTVWd3a0RNX2xya20yWW5lLVJSM0Z4cHlGSGpmc1RDbldSN1pvSnVUNVEifQ==",
-            "dob": "1999-10-21",
-            "email": "abhishek@gmail.com",
-            "gender": "Male",
-            "mobile": "0123456789",
-            "benefits": [
-                "Critical Surgery",
-                "Full body checkup"
-            ],
-            "fullName": "vihan",
-            "policyName": "Start Insurance Gold Premium",
-            "policyNumber": "87976567",
-            "policyIssuedOn": "2023-04-20T20:48:17.684Z",
-            "policyExpiresOn": "2033-04-20T20:48:17.684Z"
+        "issuer": "did:web:likhitharl.github.io:vc:qainji",
+        "expirationDate": "2026-12-06T09:37:23.598Z",
+        "proof": {
+            "type": "Ed25519Signature2018",
+            "created": "2024-12-06T09:37:23Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:likhitharl.github.io:vc:qainji#key-0",
+            "jws": "eyJ4NXQjUzI1NiI6InU3NFlCWl9HRlhxX2ZGNGJBb3otSEUwYWRjT0hZelQyZ2lId3RMZF9id0EiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJraWQiOiJwTnRJWUJaZm5ldmZaMkw3cXR3dnpSdE1HVzlwanR3Tk1yOGw0TDhFRFdzIiwiYWxnIjoiRWREU0EifQ..It-eXikboNsX5_i3idFeOIqPVmtPIy0nxzqFl9PbisW5qqyJbgXmXuJw3Bu-16buE0Yw3RG2EnMY3Nddj4DsBQ"
         }
     }
