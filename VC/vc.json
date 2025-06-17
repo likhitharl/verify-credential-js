@@ -1,86 +1,44 @@
 {
-        "@context": [
-            "https://www.w3.org/2018/credentials/v1",
-            "https://api.released.mosip.net/.well-known/mosip-ida-context.json",
-            "https://w3id.org/security/suites/ed25519-2020/v1"
-        ],
-        "issuer": "did:web:likhitharl.github.io:vc:qa-inji1",
+        "credentialSubject": {
+            "RuralPropertyName": "Guimaraes Plateau",
+            "LegalReserveArea": 400.3,
+            "Municipality": "Saint John of Alliance, State: Goias",
+            "RegistrationDate": "2024-10-25T16:40:31Z",
+            "NumberOfCAR": "GO-5220009-75F5.A618.6575.4003.BC3B.3901.93D4.E5C0",
+            "Latitude": "13.25",
+            "FiscalModules": 16.6739,
+            "NetArea": 3400,
+            "Longitude": "10.38",
+            "TotalArea": 1167.1764,
+            "HolderName": "Guimaraes Plateau National Park",
+            "TotalDeclaredArea": 1167.1764,
+            "PermanentPreservationArea": 250.2,
+            "NativeVegetationRemnant": 650.4,
+            "AdministrativeEasementArea": 67.8901,
+            "CPF": "931.877.970-40",
+            "ProtocolCode": "GO-5220009-6C3F.E6F7.FB51.C627.CC38.D58A.2A48.FCC8",
+            "id": "did:jwk:eyJrdHkiOiJFQyIsInVzZSI6InNpZyIsImNydiI6IlAtMjU2Iiwia2lkIjoidVpQbk8wRzY4SVUxYUhxeldQa1I4NmtNbm1Gd0Vxc0dDeGFiS2VtZ0Z6WSIsIngiOiI0RWFGZVJpU0Zyc25IbWF2anJFbk5BVWZ1eUJUaVA5ZlRCR2JiLWIzX2U4IiwieSI6IkQ3ZGlLeDBtLVg3LXZ3dkUzNGJvc1h1dmJ0b015VXdyajdMcXV2N2pZTUkiLCJhbGciOiJFUzI1NiJ9",
+            "ConsolidatedArea": 2700.5,
+            "RestrictedUseArea": 150.1
+        },
+        "validUntil": "2027-06-17T08:25:12.046Z",
+        "validFrom": "2025-06-17T08:25:12.046Z",
+        "id": "https://mosip.io/credential/e119dd47-9df2-442c-b1b5-c763bcaef970",
         "type": [
             "VerifiableCredential",
-            "MockVerifiableCredential"
+            "RegistrationReceiptCredential"
         ],
-        "issuanceDate": "2025-04-01T05:14:38.537Z",
-        "expirationDate": "2027-04-01T05:14:38.537Z",
-        "credentialSubject": {
-            "id": "did:jwk:eyJrdHkiOiJSU0EiLCJlIjoiQVFBQiIsInVzZSI6InNpZyIsImtpZCI6ImhtSDUtNGFnOURWbWt6dE5aQXhrYWx6Z0I3QzEzVjYxVmQ5YzJRS2lwNXciLCJhbGciOiJSUzI1NiIsIm4iOiJ3S2Rzb1llcDJmczhockpUM3NqUnBfTHdtQ2pCTVp4SU1vX2hER0NnTUtuNmt0ek5YWEhDTWZnMEdrTURuc3hGdWp2TWtTUWZDVXpFY1A3STB3UHhISzNBbHVyMjFFSjkxVnZJUjZuZWNyeUN5NTFqU0VxcVZua1N3S1VwcVJOQ1RWQWJrS1BsdVFrS1VMczZkS2pkNGlsRkthWTZCUFZma1ZUWW9VdFJPSjROaG9SMGdoYjl3cC1BVjVmMU1KOGd5c0JUUk9zOHZFT2M0Y0FWOS1KNzZkcURvQ1RpcU4yUDRlR2FIX1cyaG9Da0hkR1dkTnZ0ZDdVSzFlcnI0eERvZzZwTXhGeEc2S0dldzQwdkxINThKYWJZeEY2UEVKOWs1WVZNd1J1VkdYUEN0SVczSHh6Z1RUNjRQc2hPcEdtNkVpWGswMFJQRk1BY211ZHJxdGhqQXcifQ==",
-            "gender": [
-                {
-                    "language": "eng",
-                    "value": "female"
-                },
-                {
-                    "language": "fra",
-                    "value": "feMâle"
-                },
-                {
-                    "language": "ara",
-                    "value": "ذكر"
-                }
-            ],
-            "postalCode": 45009,
-            "fullName": [
-                {
-                    "language": "fra",
-                    "value": "Alheri Bobby"
-                },
-                {
-                    "language": "ara",
-                    "value": "تتگلدكنسَزقهِقِفل دسييسيكدكنوڤو"
-                },
-                {
-                    "language": "eng",
-                    "value": "Alheri Bobby"
-                }
-            ],
-            "dateOfBirth": "1999/10/21",
-            "phone": "+919427357934",
-            "province": [
-                {
-                    "language": "fra",
-                    "value": "yuān 2"
-                },
-                {
-                    "language": "ara",
-                    "value": "يَُانꉛ⥍"
-                },
-                {
-                    "language": "eng",
-                    "value": "yuan wee"
-                }
-            ],
-            "region": [
-                {
-                    "language": "fra",
-                    "value": "yuān 3"
-                },
-                {
-                    "language": "ara",
-                    "value": "$لُنگᆑ"
-                },
-                {
-                    "language": "eng",
-                    "value": "yuan wee 3"
-                }
-            ],
-            "UIN": 87646667544,
-            "VID": 87646667544,
-            "email": "siwerkm@gmail.com"
-        },
+        "@context": [
+            "https://www.w3.org/ns/credentials/v2",
+            "https://mosip.github.io/inji-config/contexts/landregistry-registration-receipt-context.json",
+            "https://w3id.org/security/suites/ed25519-2020/v1"
+        ],
+        "issuer": "did:web:likhitharl.github.io:vc:qainji",
         "proof": {
-            "type": "EcdsaSecp256k1Signature2019",
-            "created": "2025-04-01T05:14:38Z",
+            "type": "EcdsaSecp256r1Signature2019",
+            "created": "2025-06-17T08:25:12Z",
             "proofPurpose": "assertionMethod",
-            "verificationMethod": "did:web:likhitharl.github.io:vc:qa-inji1#key-0",
-            "jws": "eyJ4NXQjUzI1NiI6IlFhaEs5UUFyNkpFYUhWaXJMZW5ILWVOUFFVTTJ2Wnh4NWQ3TzBzRGZmV1EiLCJiNjQiOmZhbHNlLCJjcml0IjpbImI2NCJdLCJraWQiOiJhQWw0OWxHNTkxM0s3Z0o1VzlkSEUyNFNLZDN3SEFrMWNKcDM3cjFBdFVBIiwiYWxnIjoiRVMyNTZLIn0..nUmFVstbw-GoLOEQo4f4mxQeCSy_27b7sKL5Uh_msg9ylaCnv9KN2eqqtQuw9ldwqfEBkKa4zpGFTM1DqCsHsA"
+            "verificationMethod": "did:web:likhitharl.github.io:vc:qainji#key-0",
+            "proofValue": "z2qzXn5SJgSpkZLfE8SMzwY6uXtGh88bxhZCyGb6VwdXJGPkDfboxGYkJ9dF7bePjntoZFD4av4EDjfBdych4Gegm"
         }
     }
