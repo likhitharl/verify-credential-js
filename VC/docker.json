@@ -1,44 +1,86 @@
 {
-        "id": "did:rcw:efedf349-7d6c-47cf-ab99-b7a0b1c539ca",
+        "issuanceDate": "2025-08-06T06:59:15.859Z",
+        "credentialSubject": {
+            "VID": 87646667544,
+            "gender": [
+                {
+                    "language": "eng",
+                    "value": "female"
+                },
+                {
+                    "language": "fra",
+                    "value": "feMâle"
+                },
+                {
+                    "language": "ara",
+                    "value": "ذكر"
+                }
+            ],
+            "province": [
+                {
+                    "language": "fra",
+                    "value": "yuān 2"
+                },
+                {
+                    "language": "ara",
+                    "value": "يَُانꉛ⥍"
+                },
+                {
+                    "language": "eng",
+                    "value": "yuan wee"
+                }
+            ],
+            "phone": "+919427357934",
+            "postalCode": 45009,
+            "fullName": [
+                {
+                    "language": "fra",
+                    "value": "Alheri Bobby"
+                },
+                {
+                    "language": "ara",
+                    "value": "تتگلدكنسَزقهِقِفل دسييسيكدكنوڤو"
+                },
+                {
+                    "language": "eng",
+                    "value": "Alheri Bobby"
+                }
+            ],
+            "dateOfBirth": "1999/10/21",
+            "id": "did:jwk:eyJrdHkiOiJSU0EiLCJlIjoiQVFBQiIsInVzZSI6InNpZyIsImtpZCI6IlpTZEliWTh3dXNzSmdqbW04WEVYU2dGRzN3TE51Nm1ITnhTcjhRNmJvMmMiLCJhbGciOiJSUzI1NiIsIm4iOiJycy11a1o5N3Z5YmRMeTRfZExTVUZuMWs1NWNycDNZQTB2MEQ4YVFCczBna0hsS2dkUWIwM0lkcTJTaUZ2SVl4dW5fRTlLSmh0OEU2ZE1MOTJXV2xCY2Z3MGdqYzVraV9JQnJ5bXM1ZXdVVlM1bk0xeXhPRk8zUTltRklJS1FtbTQ2ZTVQNjJ3Y1dLZ1Vlbl83SnVhRG1aYV96bWJEemtwSWNJRUEyQm1FNVFvenJOZEJYdUFJaDd5RnlxX21BcWdpV2s2bUVfZFY4U2wwam9HVGNrVFVOMTF1TmZDLTBaRkhnd3NyeXQ5LXN5ZnE2UFN1LVhjWVlrMld4dVBRMXY0cGloRzZjVHBNTUJVMVIzUFViaVVSUXc1UjlMZjdpZ1Zja3pDZlpZTzZmX1YzVTVFR3ltdEdmMS12ZXN1R19CRkY3MlBOZ0k5bG52OEtnYmQ4T0FILXcifQ==",
+            "UIN": 87646667544,
+            "region": [
+                {
+                    "language": "fra",
+                    "value": "yuān 3"
+                },
+                {
+                    "language": "ara",
+                    "value": "$لُنگᆑ"
+                },
+                {
+                    "language": "eng",
+                    "value": "yuan wee 3"
+                }
+            ],
+            "email": "siwerkm@gmail.com"
+        },
         "type": [
             "VerifiableCredential",
-            "LifeInsuranceCredential",
-            "InsuranceCredential"
+            "MockVerifiableCredential"
         ],
-        "proof": {
-            "type": "Ed25519Signature2020",
-            "created": "2024-08-08T05:36:16Z",
-            "proofValue": "z34aSkgGy7di7bfUpGjHM2e85FAziqVEoEoKSaCwgjSUfVr8ZA6PYrmtmQHrPRCNif5wMmpzpUdmjD1aPwLuNwLZR",
-            "proofPurpose": "assertionMethod",
-            "verificationMethod": "did:web:likhitharl.github.io:vc:ebebb99c-97cd-49df-a357-31cd2ca1dd86#key-0"
-        },
-        "issuer": "did:web:likhitharl.github.io:vc:ebebb99c-97cd-49df-a357-31cd2ca1dd86",
         "@context": [
             "https://www.w3.org/2018/credentials/v1",
-            "https://holashchand.github.io/test_project/insurance-context.json",
-            {
-                "LifeInsuranceCredential": {
-                    "@id": "InsuranceCredential"
-                }
-            },
+            "https://api.released.mosip.net/.well-known/mosip-ida-context.json",
             "https://w3id.org/security/suites/ed25519-2020/v1"
         ],
-        "issuanceDate": "2024-08-08T05:36:15.616Z",
-        "expirationDate": "2024-09-07T05:36:15.440Z",
-        "credentialSubject": {
-            "id": "did:jwk:eyJrdHkiOiJSU0EiLCJlIjoiQVFBQiIsInVzZSI6InNpZyIsImtpZCI6InVhOFdjRDN6Rm9KVkprSzFrUFpqekFieG1pYUZXamMyckFuUlRFTGxxNzAiLCJhbGciOiJSUzI1NiIsIm4iOiJ3VVJxWlBhQVRmRnB5ZkxBZENUY2dxQkxaMXZ4aXNUVGNOSXFkUkdYSGhBREZUdHhERGNsN1NadF9RVGZ1SU9BbWkyUUMteEFSOTJBd2tLRmdtZ0pMOWd0TEQyTDY4TTJucy0tUW01X0dZRTdpOWZlTjZGYzdPXzA3dDc2dlJycVo4U1VfNTFsa0ZvQmJfdDdaZDhDYzZWX2lQTFBfYlhfSEtvUmZENno5VEdGakxhVlY4Y3V6TDc0UFhoWUNCZ29neWctejNVN2owY3VJS2JQVm1nUWhjcm1HWGgxVDlrUGxfcXN1X3lXTkczaDl2QXZHbVNWUmdoYTk3anpkNzExOHlvQmdvU1dWaGJ0QlA4Z1RHQzNvVGpxZDl0NmpmM0ZIX2xXNEc1NHB1NTAwN2M2MEtjN1VnalBoT2xqZUpQcEpKRDBEcFowc0pkeURQYkdOTGpNc3cifQ==",
-            "dob": "1986-10-24",
-            "email": "likhth@gmail.com",
-            "gender": "Male",
-            "mobile": "6789543456",
-            "benefits": [
-                "Critical Surgery",
-                "Full body checkup"
-            ],
-            "fullName": "lucky",
-            "policyName": "Start Insurance Gold Premium",
-            "policyNumber": "6567841",
-            "policyIssuedOn": "2024-08-08T20:48:17.684Z",
-            "policyExpiresOn": "2033-04-20T20:48:17.684Z"
+        "issuer": "did:web:mosip.github.io:inji-config:collab:mock-identity",
+        "expirationDate": "2027-08-06T06:59:15.859Z",
+        "proof": {
+            "type": "Ed25519Signature2020",
+            "created": "2025-08-06T06:59:15Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:mosip.github.io:inji-config:collab:mock-identity#22uwKOi2U5EXV2Hq8VmGBQSsgPTRDdc2dmPwjIKNvG0",
+            "proofValue": "zHyntSkMw3S7zdo9RUVegRdx2qHwCnvouwep1LHD4WLiPVtp3BAHE1NLczzXzxK2PaxAH51YjiiDWJ229gbtqKSn"
         }
     }
